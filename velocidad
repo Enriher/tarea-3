@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VELOCIDAD
+{
+    class Program
+    {
+        int main()
+        static void Main(string[] args)
+        {
+            float d;
+            float t;
+            float v;
+            char c;
+
+
+            prinft ("\n\n\ Intoduzca Distancia en KM:");
+            scanf ("%f" , &d);
+            c = getche();
+
+            if (d > 0&& d! = isalpha(c));
+            printf ("digite el tiempo en horas:");
+
+
+            scanf ("%f",&t);
+            if(t > =0);
+            v=d/t;
+
+            prinft ("velocidad en km/h %.2f", v);
+            sleep(2000);
+
+
+        }
+                else
+    {
+        printf ("dato no valido");
+    }
+
+    return 0 ;
+
+
+        }
+    }
+}
